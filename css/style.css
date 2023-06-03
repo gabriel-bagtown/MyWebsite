@@ -1,10 +1,45 @@
-
-
-nav a{
-    color: black;
+* {
+    margin: 0;
+}  
+html {
+    scroll-behavior: smooth;
+  }
+  /* Nav */
+.container {
+    background-color: #6438ca;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+nav {
+    text-align: right;
+    text-transform: uppercase;
+    flex: 1;
+}
+nav a {
+    color: white;
     font-family: 'Noto Sans';
     text-decoration: none;
+    margin-right: 5%;
+    font-size: 1em;
 }
+nav a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+/* Home */
+#home-container{
+    /* margin-top: 7em; */
+    position: relative;
+    background-color: tomato;
+    height: 10em;
+}
+
+
 
 
 
