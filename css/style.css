@@ -1,19 +1,21 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }  
 html {
     scroll-behavior: smooth;
     font-size: 16px;
-  }
+}
+
   /* Nav */
 .nav-container {
-    background-color: #6438ca;
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    position: sticky;
+    background-color: #1e6937;
+    width: 100%;
+    padding: 1.5rem 1.2rem;
+    width: 100%;
+    position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 1;
 }
 nav {
     text-align: right;
@@ -31,29 +33,56 @@ nav a:hover{
     color: black;
     transition: 0.5s;
 }
+/* End of Nav */
 
 /* Home */
-.home-container{
+#home-section{
     background-color: #f9f9f9;
-    height: 60vh;
+    /* background-color: lightseagreen; */
+    height: 100vh;
     width: 100%;
 }
-.home-content{
-    font-family: 'Noto Sans';
-}
-h1{
-    font-weight: 700;
-    font-size: 3rem;
-}
-.picture{
-    height: 40vh;
+.home-container{
+    /* background-color: lightblue; */
+    position: relative;
+    top: 10rem;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.home-content{
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: tomato;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+.home-content-text-container{
+    /* background-color: pink; */
+    font-family: 'Noto Sans';
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -5rem;
+}
+h1{
+    color: #3f8a58;
+    font-weight: 800;
+    font-size: 4rem;
+}
+.skills-container{
+    /* background-color: lightgreen; */
+    font-family: 'Noto Sans';
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: relative;
+    top: 2rem;
 }
 #profile-picture{
-    height: 15rem;
+    height: 40vh;
     border-radius: 50%;
     border: 5px solid white;
 }
