@@ -37,13 +37,13 @@ nav a:hover{
 
 /* Home */
 #home-section{
-    background-color: #f9f9f9;
-    /* background-color: lightseagreen; */
+    /* background-color: #f9f9f9; */
+    background-color: lightseagreen;
     height: 100vh;
     width: 100%;
 }
 .home-container{
-    /* background-color: lightblue; */
+    background-color: lightblue;
     position: relative;
     top: 10rem;
     display: flex;
@@ -51,17 +51,17 @@ nav a:hover{
     flex-wrap: wrap;
 }
 .home-content{
-    /* background-color: tomato; */
+    background-color: tomato;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 3rem;
-
 }
+
 .home-content-text-container{
-    /* background-color: pink; */
+    background-color: pink;
     font-family: 'Noto Sans';
     display: flex;
     flex-direction: column;
@@ -69,24 +69,25 @@ nav a:hover{
     top: -5rem;
 }
 h1{
-    color: #3f8a58;
+    color: #1e6937;
     font-weight: 800;
     font-size: 4rem;
 }
 .skills-container{
-    /* background-color: lightgreen; */
+    background-color: lightgreen;
     font-family: 'Noto Sans';
     font-size: 1.5rem;
     font-weight: 700;
     position: relative;
-    top: 2rem;
+    top: 3rem;
 }
+
 #profile-picture{
-    height: 40vh;
+    height: 30rem;
     border-radius: 50%;
     border: 5px solid white;
 }
-
+/* End of Home */
 
 
 
