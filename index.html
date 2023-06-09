@@ -21,14 +21,19 @@
     <body>
         <!-- <a id="home"></a> -->
 
-        <div class="nav-container">
+        <section id="nav-section">
           <nav>
-            <a href="#home-section">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <div class="nav-home">
+              <a href="#home-section">Gabriel.dev</a>
+            </div>
+            <div class="nav-buttons">
+              <a href="#home-section">Home</a>
+              <a href="#about">About</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+            </div>
           </nav>
-        </div>
+        </section>
 
         <section id="home-section">
           <div class="home-container">
@@ -38,10 +43,25 @@
               <div class="home-content-text-container">
                 <h1>Welcome! </h1>
                 <p>Hi, I'm Gabriel Molina. A BSIT Student based in Baguio City, Philippines. 📍⛰️</p>
+
               <!--Skills div-->
               <div class="skills-container">
                 <p>Tech Skills</p>
-                <div class="skill-logos"></div>
+                <div class="skills-logos-container">
+                  <div class="logo-container">
+                    <img class="logo html-logo" src="assets/html_logo.png" title="HTML5" alt="Error"/>
+                  </div>
+                  <div class="logo-container">
+                    <img class="logo css-logo" src="assets/css_logo.png" title="CSS3" alt="Error"/>
+                  </div>
+                  <div class="logo-container">
+                    <img class="java-logo" src="assets/java_logo.png" title="Java" alt="Error" />
+                  </div>
+                  <div class="logo-container">
+                    <img class="logo mysql-logo" src="assets/mysql_logo.png" title="MySQL" alt="Error"/>
+                  </div>
+                  
+                </div>
               </div>
               </div>
               
@@ -50,8 +70,6 @@
                 <img id="profile-picture" src="assets/try.jpg" alt="Error"/>
               </div>
             </div>
-
-            
           </div>
         </section>
 
