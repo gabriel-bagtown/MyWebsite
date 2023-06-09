@@ -26,7 +26,7 @@ nav {
 }
 .nav-home a{
     color: white;
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
     text-decoration: none;
@@ -37,34 +37,31 @@ nav {
 }
 .nav-buttons a {
     color: white;
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
     font-size: 1rem;
     text-transform: uppercase;
 }
 .nav-buttons a:hover{
-    color: black;
-    transition: 0.7s;
+    color: #1a1a1ae5;
+    transition: 0.5s;
 }
 /* End of Nav */
 
 /* Home */
-#home-section{
+#home{
     background-color: #f9f9f9;
-    /* background-color: lightseagreen; */
     height: 100vh;
     width: 100%;
 }
 .home-container{
-    /* background-color: lightblue; */
     position: relative;
-    top: 10rem;
+    top: 15rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 .home-content{
-    /* background-color: tomato; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -74,23 +71,20 @@ nav {
 }
 
 .home-content-text-container{
-    /* background-color: pink; */
-    font-family: 'Noto Sans';
-    font-size: 1.2rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     position: relative;
-    top: -5rem;
+    top: -6rem;
 }
 h1{
     color: #1e6937;
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 4.1rem;
 }
 
 .skills-container{
-    /* background-color: lightgreen; */
-    
     position: relative;
     top: 7rem;
     display: flex;
@@ -98,7 +92,7 @@ h1{
     align-items: center;
 }
 .skills-container p{
-    font-family: 'Noto Sans';
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
     border-right: 2px solid rgba(45,46,50,.5);
@@ -111,6 +105,7 @@ h1{
     flex-direction: row;
     margin-left: auto;
     gap: 5rem;
+    flex-wrap: wrap;
 }
 .logo-container{
     height: 4rem;
@@ -131,13 +126,38 @@ h1{
 }
 
 #profile-picture{
-    height: 30rem;
+    height: 25vw;
     border-radius: 3em;
     border: 5px solid #f9f9f9;
 }
-
 /* End of Home */
 
-
+/* About  */
+#about{
+    background-color: #1e6937;
+    height: 70vh;
+}
+.about-me-content{
+    display: flex;
+    flex-direction: column;
+}
+.about-me-heading{
+    background-color: tomato;
+    text-align: center;
+}
+.about-me-heading h2{
+    font-family:  'Noto Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+.about-me-text {
+    background-color: lightblue;
+    width: 25rem;
+}
+.about-me-text p{
+    font-family:  'Noto Sans', sans-serif;
+    font-size: 1rem;
+}
 
 
