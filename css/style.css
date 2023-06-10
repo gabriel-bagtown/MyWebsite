@@ -174,7 +174,7 @@ h1{
     font-family:  'Noto Sans', sans-serif;
     font-size: 1rem;
     color: white;
-    text-align: justify;
+    line-height: 1.6rem;
 }
 
 #pc-picture{
