@@ -95,18 +95,18 @@ h1{
 }
 .skills-container p{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     border-right: 2px solid rgba(45,46,50,.5);
     line-height: 3.8rem;
     padding-right: 1.2rem;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
 }
 .skills-logos-container{
     display: flex;
     flex-direction: row;
     margin-left: auto;
-    gap: 5rem;
+    gap: 5.7rem;
     flex-wrap: wrap;
 }
 .logo-container{
@@ -164,7 +164,7 @@ h1{
 }
 .about-me-heading h2{
     font-family:  'Noto Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 2.1rem;
     font-weight: 600;
     color: #f9f9f9;
 }
@@ -175,7 +175,7 @@ h1{
     width: 25rem;
 }
 .about-me-text p{
-    font-family:  'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 1rem;
     color: white;
     line-height: 1.6rem;
@@ -189,8 +189,26 @@ h1{
 /* End of About */
 
 /* Projects */
+#projects{
+    position: relative;
+}
 .projects-container{
     background-color: #f9f9f9;
-    min-height: 60vh;
+    min-height: 64vh;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.projects-heading h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.1rem;
+    color: #4e6e0c;
+    text-align: center;
+}
+.projects-content p{
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-style: italic;
 }
 /* End of Projects */
