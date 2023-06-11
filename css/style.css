@@ -135,10 +135,12 @@ h1{
 /* End of Home */
 
 /* About  */
-
+#about{
+    position: relative;
+}
 .about-container{
     background-image: linear-gradient(#4e6e0c, #1e6937 20%);
-    min-height: 64vh;
+    min-height: 68vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -146,7 +148,6 @@ h1{
     flex-wrap: wrap;
     gap: 3rem;
     position: relative;
-    top: 2rem;
 }
 .about-me-content{
     display: flex;
@@ -164,7 +165,7 @@ h1{
 }
 .about-me-heading h2{
     font-family:  'Noto Sans', sans-serif;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: #f9f9f9;
 }
@@ -194,14 +195,16 @@ h1{
 }
 .projects-container{
     background-color: #f9f9f9;
-    min-height: 64vh;
+    min-height: 68vh;
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 4rem;
 }
 .projects-heading h2{
     font-family: 'Noto Sans', sans-serif;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     color: #4e6e0c;
     text-align: center;
 }
@@ -212,3 +215,20 @@ h1{
     font-style: italic;
 }
 /* End of Projects */
+
+/* Contact */
+#contact{
+    position: relative;
+}
+.contact-container{
+    background-color: white;
+    min-height: 40vh;
+    padding: 4rem;
+}
+.contact-heading h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.8rem;
+    color: #4e6e0c;
+    text-align: center;
+}
+/* End of Contact */
